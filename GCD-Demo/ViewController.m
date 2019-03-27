@@ -45,9 +45,9 @@
 
 - (void)createDispatchQueue {
     // 串行队列的创建方法
-    dispatch_queue_t queue1 = dispatch_queue_create("net.banggood", DISPATCH_QUEUE_SERIAL);
+    dispatch_queue_t queue1 = dispatch_queue_create("net.cs", DISPATCH_QUEUE_SERIAL);
     // 并发队列的创建方法
-    dispatch_queue_t queue2 = dispatch_queue_create("net.banggood", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_queue_t queue2 = dispatch_queue_create("net.cs", DISPATCH_QUEUE_CONCURRENT);
     // 获取主队列
     dispatch_queue_t mainQueue = dispatch_get_main_queue();
     // 获取全局队列
@@ -75,7 +75,7 @@
     NSLog(@"syncConcurrent---begin");
     
     // 创建队列
-    dispatch_queue_t queue = dispatch_queue_create("net.banggood", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_queue_t queue = dispatch_queue_create("net.cs", DISPATCH_QUEUE_CONCURRENT);
     
     dispatch_sync(queue, ^{
         // 追加任务1
@@ -110,7 +110,7 @@
     NSLog(@"syncConcurrent---begin");
     
     // 创建队列
-    dispatch_queue_t queue = dispatch_queue_create("net.banggood", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_queue_t queue = dispatch_queue_create("net.cs", DISPATCH_QUEUE_CONCURRENT);
     
     dispatch_async(queue, ^{
         // 追加任务1
@@ -145,7 +145,7 @@
     NSLog(@"syncConcurrent---begin");
     
     // 创建队列
-    dispatch_queue_t queue = dispatch_queue_create("net.banggood", DISPATCH_QUEUE_SERIAL);
+    dispatch_queue_t queue = dispatch_queue_create("net.cs", DISPATCH_QUEUE_SERIAL);
     
     dispatch_sync(queue, ^{
         // 追加任务1
@@ -180,7 +180,7 @@
     NSLog(@"syncConcurrent---begin");
     
     // 创建队列
-    dispatch_queue_t queue = dispatch_queue_create("net.banggood", DISPATCH_QUEUE_SERIAL);
+    dispatch_queue_t queue = dispatch_queue_create("net.cs", DISPATCH_QUEUE_SERIAL);
     
     dispatch_async(queue, ^{
         // 追加任务1
@@ -301,7 +301,7 @@
 
 /** 栅栏方法 dispatch_barrier_async */
 - (void)dispatchBarrierAsync {
-    dispatch_queue_t queue = dispatch_queue_create("net.banggood", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_queue_t queue = dispatch_queue_create("net.cs", DISPATCH_QUEUE_CONCURRENT);
     
     dispatch_async(queue, ^{
         // 追加任务1
@@ -516,9 +516,9 @@
     
     _ticketSurplusCount = 50;
     // 广州售票窗口
-    dispatch_queue_t queue1 = dispatch_queue_create("net.banggood.guangzhou", DISPATCH_QUEUE_SERIAL);
+    dispatch_queue_t queue1 = dispatch_queue_create("net.cs.guangzhou", DISPATCH_QUEUE_SERIAL);
     // 龙岩售票窗口
-    dispatch_queue_t queue2 = dispatch_queue_create("net.banggood.longyan", DISPATCH_QUEUE_SERIAL);
+    dispatch_queue_t queue2 = dispatch_queue_create("net.cs.longyan", DISPATCH_QUEUE_SERIAL);
     
     __weak typeof (self) weakSelf = self;
     dispatch_async(queue1, ^{
@@ -557,9 +557,9 @@
     _ticketSurplusCount = 50;
     
     // 广州售票窗口
-    dispatch_queue_t queue1 = dispatch_queue_create("net.banggood.guangzhou", DISPATCH_QUEUE_SERIAL);
+    dispatch_queue_t queue1 = dispatch_queue_create("net.cs.guangzhou", DISPATCH_QUEUE_SERIAL);
     // 龙岩售票窗口
-    dispatch_queue_t queue2 = dispatch_queue_create("net.banggood.longyan", DISPATCH_QUEUE_SERIAL);
+    dispatch_queue_t queue2 = dispatch_queue_create("net.cs.longyan", DISPATCH_QUEUE_SERIAL);
     
     __weak typeof (self) weakSelf = self;
     dispatch_async(queue1, ^{

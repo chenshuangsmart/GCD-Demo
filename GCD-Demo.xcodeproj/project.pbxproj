@@ -434,7 +434,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = "GCD-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.GCD-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.GCD-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,7 +448,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = "GCD-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.GCD-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.GCD-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,7 +462,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = "GCD-DemoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.GCD-DemoTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.GCD-DemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCD-Demo.app/GCD-Demo";
@@ -477,7 +477,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = "GCD-DemoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.GCD-DemoTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.GCD-DemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCD-Demo.app/GCD-Demo";
@@ -491,7 +491,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = "GCD-DemoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.GCD-DemoUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.GCD-DemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "GCD-Demo";
@@ -505,7 +505,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = "GCD-DemoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.GCD-DemoUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.GCD-DemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "GCD-Demo";
